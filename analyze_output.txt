@@ -1,0 +1,40 @@
+﻿Analyzing prince_baby_app...                                    
+
+   info - Statements in an if should be enclosed in a block - lib\screens\contact_screen.dart:224:17 - curly_braces_in_flow_control_structures
+   info - Unnecessary use of string interpolation - lib\screens\home_screen.dart:861:25 - unnecessary_string_interpolations
+   info - Angle brackets will be interpreted as HTML - lib\services\git_storage_service.dart:31:16 - unintended_html_in_doc_comment
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:22:35 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:23:33 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:24:35 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:27:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:28:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:29:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:30:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:31:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:32:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:38:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:59:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:62:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:102:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:105:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:157:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:160:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:184:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:187:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:210:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:211:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:213:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:215:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:217:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\validate_data.dart:218:3 - avoid_print
+warning - Unused import: 'package:prince_baby_app/main.dart' - test\widget_test.dart:11:8 - unused_import
+
+flutter : 28 issues found. (ran in 7.3s)
+At line:1 char:1
++ flutter analyze --no-fatal-infos 2>&1 | Out-File 
+-FilePath C:\Users\M ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (28 issues fo 
+   und. (ran in 7.3s):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

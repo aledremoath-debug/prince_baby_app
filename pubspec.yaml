@@ -1,0 +1,44 @@
+name: prince_baby_app
+description: Prince Baby - Premium baby diapers and wipes mobile app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  provider: ^6.1.2
+  go_router: ^14.8.1
+  shared_preferences: ^2.3.4
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.1
+  cached_network_image: ^3.4.1
+  flutter_animate: ^4.5.2
+  shimmer: ^3.0.0
+  carousel_slider: ^5.0.0
+  flutter_screenutil: ^5.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    # Git Storage - بيانات مُدارة عبر Git
+    - data_storage/products/
+    - data_storage/blog/
+    - data_storage/faq/
+    - data_storage/offers/
+    - data_storage/partners/
+    - data_storage/tips/
+    - data_storage/config/
