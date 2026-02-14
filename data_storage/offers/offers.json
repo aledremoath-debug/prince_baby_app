@@ -1,0 +1,44 @@
+{
+    "_metadata": {
+        "version": "1.0.0",
+        "lastUpdated": "2026-02-14T14:50:00+03:00",
+        "author": "marketing-admin",
+        "description": "بيانات العروض والخصومات لتطبيق برنس بيبي",
+        "schema": "offers/v1"
+    },
+    "offers": [
+        {
+            "id": 101,
+            "title": "عرض العائلة الكبيرة",
+            "description": "3 عبوات حفاضات مقاس 3 + عبوة مناديل مبللة مجانية",
+            "originalPrice": 19000,
+            "discountPrice": 14500,
+            "discountPercent": 24,
+            "colorKey": "primaryPink",
+            "iconName": "card_giftcard",
+            "durationDays": 3
+        },
+        {
+            "id": 102,
+            "title": "عرض المولود الجديد",
+            "description": "مجموعة كاملة: حفاضات مقاس 1 + مقاس 2 + كريم حفاضة",
+            "originalPrice": 13000,
+            "discountPrice": 9900,
+            "discountPercent": 24,
+            "colorKey": "babyBlue",
+            "iconName": "bolt",
+            "durationDays": 5
+        },
+        {
+            "id": 103,
+            "title": "عرض نهاية الشهر",
+            "description": "خصم 30% على جميع منتجات العناية بالبشرة",
+            "originalPrice": 10000,
+            "discountPrice": 7000,
+            "discountPercent": 30,
+            "colorKey": "softGreen",
+            "iconName": "percent",
+            "durationDays": 7
+        }
+    ]
+}

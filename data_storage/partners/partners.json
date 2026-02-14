@@ -1,0 +1,111 @@
+{
+    "_metadata": {
+        "version": "1.0.0",
+        "lastUpdated": "2026-02-14T14:50:00+03:00",
+        "author": "data-admin",
+        "description": "بيانات الشركاء ودليل المقاسات لتطبيق برنس بيبي",
+        "schema": "partners/v1"
+    },
+    "partners": [
+        {
+            "name": "هايبر شملان",
+            "initials": "HS"
+        },
+        {
+            "name": "سيتي ماكس",
+            "initials": "CM"
+        },
+        {
+            "name": "هايبر المستهلك",
+            "initials": "HM"
+        },
+        {
+            "name": "صيدليات المجتمع",
+            "initials": "CP"
+        },
+        {
+            "name": "أسواق الجند",
+            "initials": "GA"
+        },
+        {
+            "name": "توفير هايبر",
+            "initials": "TH"
+        },
+        {
+            "name": "المركز التجاري",
+            "initials": "TC"
+        },
+        {
+            "name": "المؤسسة العامة",
+            "initials": "GE"
+        }
+    ],
+    "sizeGuide": [
+        {
+            "size": 1,
+            "label": "حديثي الولادة",
+            "weight": "2-5 كجم",
+            "minWeight": 2,
+            "maxWeight": 5,
+            "count": 42,
+            "price": "45 ر.س",
+            "ageRange": "0-3 أشهر",
+            "emoji": "👶"
+        },
+        {
+            "size": 2,
+            "label": "صغير",
+            "weight": "3-6 كجم",
+            "minWeight": 3,
+            "maxWeight": 6,
+            "count": 40,
+            "price": "50 ر.س",
+            "ageRange": "3-6 أشهر",
+            "emoji": "👶"
+        },
+        {
+            "size": 3,
+            "label": "متوسط",
+            "weight": "4-9 كجم",
+            "minWeight": 4,
+            "maxWeight": 9,
+            "count": 36,
+            "price": "55 ر.س",
+            "ageRange": "6-12 شهر",
+            "emoji": "🧒"
+        },
+        {
+            "size": 4,
+            "label": "كبير",
+            "weight": "7-18 كجم",
+            "minWeight": 7,
+            "maxWeight": 18,
+            "count": 32,
+            "price": "60 ر.س",
+            "ageRange": "1-2 سنة",
+            "emoji": "🧒"
+        },
+        {
+            "size": 5,
+            "label": "كبير جداً",
+            "weight": "11-25 كجم",
+            "minWeight": 11,
+            "maxWeight": 25,
+            "count": 28,
+            "price": "65 ر.س",
+            "ageRange": "2-3 سنوات",
+            "emoji": "🧒"
+        },
+        {
+            "size": 6,
+            "label": "جامبو",
+            "weight": "16+ كجم",
+            "minWeight": 16,
+            "maxWeight": 35,
+            "count": 24,
+            "price": "70 ر.س",
+            "ageRange": "3+ سنوات",
+            "emoji": "👦"
+        }
+    ]
+}

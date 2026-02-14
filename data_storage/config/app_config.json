@@ -1,0 +1,47 @@
+{
+    "_metadata": {
+        "version": "1.0.0",
+        "lastUpdated": "2026-02-14T14:50:00+03:00",
+        "environment": "production",
+        "description": "إعدادات التطبيق الأساسية - يتم التحكم بها عبر Git"
+    },
+    "app": {
+        "name": "Prince Baby",
+        "nameAr": "برنس بيبي",
+        "version": "1.0.0",
+        "buildNumber": 1,
+        "minSdkVersion": "3.8.0"
+    },
+    "features": {
+        "enableCart": true,
+        "enableBlog": true,
+        "enableOffers": true,
+        "enableFAQ": true,
+        "enableTips": true,
+        "enableDarkMode": true,
+        "enableMultiLanguage": true,
+        "enableNotifications": false,
+        "enableAnalytics": false
+    },
+    "api": {
+        "baseUrl": "",
+        "timeout": 30000,
+        "retryCount": 3,
+        "cacheEnabled": true,
+        "cacheDuration": 3600
+    },
+    "storage": {
+        "dataSource": "local_json",
+        "localDataPath": "data_storage/",
+        "enableCaching": true,
+        "cacheMaxAge": 86400
+    },
+    "theme": {
+        "defaultMode": "light",
+        "defaultLocale": "ar",
+        "supportedLocales": [
+            "ar",
+            "en"
+        ]
+    }
+}

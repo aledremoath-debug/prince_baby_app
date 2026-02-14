@@ -1,0 +1,30 @@
+{
+    "_metadata": {
+        "version": "1.0.0",
+        "lastUpdated": "2026-02-14T14:50:00+03:00",
+        "description": "سجل تغييرات البيانات - يُحدّث تلقائياً عند كل تعديل على محتوى data_storage"
+    },
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2026-02-14",
+            "author": "system",
+            "changes": [
+                {
+                    "type": "initial",
+                    "scope": "all",
+                    "description": "إنشاء هيكل Git Storage الأولي وفصل البيانات عن الكود",
+                    "files": [
+                        "data_storage/products/products.json",
+                        "data_storage/blog/blog_posts.json",
+                        "data_storage/faq/faq.json",
+                        "data_storage/offers/offers.json",
+                        "data_storage/partners/partners.json",
+                        "data_storage/tips/tips.json",
+                        "data_storage/config/app_config.json"
+                    ]
+                }
+            ]
+        }
+    ]
+}
